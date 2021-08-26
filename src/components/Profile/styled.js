@@ -21,7 +21,6 @@ export const ProfileAuthor = styled.h1`
   margin: 0.5rem auto 1.5rem;
 `
 
-
 export const ProfilePosition = styled.small`
   display: block;
   font-size: 1.2rem;

@@ -11,6 +11,7 @@ const GlobalStyles = createGlobalStyle`
   footer, header, hgroup, menu, nav, section {
     display: block;
   }
+  
   body {
     line-height: 1;
   }
@@ -29,11 +30,15 @@ const GlobalStyles = createGlobalStyle`
     border-collapse: collapse;
     border-spacing: 0;
   }
-  * {
+
+  *, 
+  *::after,
+  *::before{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
+
   body {
     background: #16202c;
     line-height: 1;
