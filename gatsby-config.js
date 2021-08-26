@@ -1,12 +1,16 @@
 module.exports = {
   siteMetadata: {
     title: `My Blog`,
+    position: `Developer Frontend`,
     description: `Blog Sobre Desenvolvimento Frontend e outras coisas da web`,
     author: `@ghostK`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`, // Needed for dynamic images
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
